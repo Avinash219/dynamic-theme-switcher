@@ -1,0 +1,6 @@
+<div>
+  <label for="themeSelect">Select Theme:</label>
+  <select id="themeSelect" (change)="switchTheme($event)" [value]="currentTheme">
+    <option *ngFor="let theme of themes" [value]="theme">{{ theme }}</option>
+  </select>
+</div>

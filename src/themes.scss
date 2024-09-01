@@ -1,0 +1,15 @@
+/* themes.scss */
+
+/* Light Theme */
+.light-theme {
+  --primary-color: #ffffff;
+  --secondary-color: #f0f0f0;
+  --text-color: #000000;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: #1a1a1a;
+  --text-color: #ffffff;
+}
